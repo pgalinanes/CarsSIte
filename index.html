@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+  <!--CSS-->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" href="img/icon.png">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <!--Javascript-->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Pablo G</title>
+</head>
+<body>
+  <!--Navbar // https://www.codeply.com/p/P0KN7DNsEq-->
+  <!--Meter iconos asi: <i class="bi bi-activity"></i> -->
+  <!-- example 5 left and center only with empty space right -->
+  <nav class="navColor navbar navbarFixed navbar-expand-sm flex-sm-nowrap flex-wrap navbar-dark">
+    <div class="container-fluid logoAlign">
+      <button class="navbar-toggler flex-grow-sm-1 flex-grow-0 me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar5">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-brand" id= "logoSpacing"><a href="index.html"><img class= "logo" src="img/logo.png"> </a></div>
+      <div class="navbar-collapse collapse flex-grow-1 justify-content-center" id="navbar5">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link glow" href="index.html"><i class="bi bi-house"></i> Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galeria.html"><i class="bi bi-images"></i> Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="timeline.html"><i class="bi bi-hourglass-split"></i> Timeline</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutme.html"><i class="bi bi-person-fill"></i> About Me</a>
+          </li>
+        </ul>
+      </div>
+      <div class="flex-grow-1">
+        <!--spacer-->
+      </div>
+    </div>
+  </nav>
+  <!-- example 5 left and center only with empty space right -->
+  <!--Cookie-Alert -->
+  <div id="barraaceptacion" class="d-flex justify-content-center mt-5 h-100 test">
+    <div class="d-flex align-items-center align-self-center card p-3 text-center cookies">
+      <img src="img/cookie.png" width="50">
+      <span class="mt-2">Usamos cookies de terceros para personalizar el contenido y los anuncios.</span>
+      <a class="d-flex align-items-center" href="https://www.privacypolicies.com/blog/eu-cookie-law/">Learn more<i class="fa fa-angle-right ml-2"></i></a>
+      <button id="botoncookies" class="btn btn-dark mt-3 px-4" type="button">Okay</button>
+    </div>
+  </div>
+  <!--Cookie-Alert -->
+
+  <!--Carousel -->
+  <div id="carouselExampleControls" class="carousel slide md-8" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/coche1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h4>Toyota GT86</h4>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/coche2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h4>BMW M4 GTS</h4>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/coche3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h4>Toyota Supra</h4>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/coche4.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h4>Ferrari 458 Spider</h4>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/coche5.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h4>Nissan GTR R34</h4>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--Carousel -->
+
+  <!--Contenido -->
+  <div id="wrapper">
+    <div id="container">
+      <h1>Toyota GT 86</h1>
+      <p></p>
+      <p class="blanco">El Toyota GT-86 y Subaru BRZ son automóviles deportivos desarrollados por los fabricantes japoneses Toyota y Subaru en el mercado desde el año 2012. Tienen motor delantero boxer y tracción trasera. Son coupés de dos puertas y 2+2 plazas.</p>
+      <p class="blanco">Toyota realizó numerosos prototipos como parte del proceso de desarrollo del GT86. El primero de ellos fue el FT-86, presentado en el Salón del Automóvil de Tokio de 2009. En la edición 2010 se mostró el Toyota FT-86 G Sports Concept, una versión de altas prestaciones del FT-86. En el Salón del Automóvil de Ginebra de 2011 se presentó el Toyota FT-86 II, una evolución del prototipo original. Scion develó su modelo en el Salón del Automóvil de Nueva York de 2011, y Subaru lo hizo en el Salón del Automóvil de Los Ángeles de 2011.</p>
+      <p class="blanco">Su motor, tiene la denominación 4U-GSE para Toyota y FA-20 para Subaru, el cual es un cuatro cilindros bóxer atmosférico de 2,0 litros de cilindrada, que cuenta con inyección mixta directa/indirecta. Tiene una potencia máxima de 200 HP (149 kilovatios) ó 203 HP (151 kilovatios) según el mercado, y 205 Nm (151 lb-ft) de par motor. Los cilindros tienen 86 mm (3,39 pulgadas) de carrera y diámetro, nuevamente haciendo referencia a la denominación 86. Se ofrece con caja de cambios manual o automática de seis marchas. Según el equipamiento, el GT86 pesa entre 1150 kg (2535 libras) y 1250 kg (2756 libras), repartidos en una relación delantera-trasera de 53-47%. Los datos de prestaciones son una aceleración de 0 a 100 km/h de 7.1 segundos para la opción manual y 7.8 para la automática , el cuarto de milla en 14,8 segundos, y una velocidad máxima de 225 km/h. </p>
+    </div>
+  </div>
+
+  <div id="wrapper">
+    <div id="container">
+      <h1>BMW M4 GTS</h1>
+      <p></p>
+      <p class="blanco">BMW presentó el concepto M4 GTS en agosto de 2015 en el Pebble Beach Concours d'Elegance. En 2016, BMW lanzó la versión de producción del automóvil, que era una versión centrada en la pista del propio coupé M4 estándar con una producción limitada de 700 unidades y un precio de $ 133,205. Está propulsado por el mismo motor de seis cilindros en línea biturbo de 3.0 litros que el M4 normal, pero la potencia se ha elevado a 368 kW (500 PS; 493 CV), en gran parte debido a un novedoso sistema de inyección de agua que es el primero en ser utilizado en un automóvil de producción en casi veinte años. Además de la mayor potencia del motor, el M4 GTS es 27 kg más liviano que el M4 Coupé estándar con transmisión DCT, por lo que el peso ahora es de 1,585 kg (3,494 lb).</p>
+      <p class="blanco"> El tiempo de aceleración de 0 a 100 km/h se reduce a solo 3,8 segundos, mientras que la velocidad máxima es de 305 km / h (190 mph). El M4 GTS, según BMW, superó la infame pista de Nürburgring Nordschleife en 7 minutos y 28 segundos, 24 segundos más rápido que el M4 básico y 20 segundos más rápido que el M3 GTS. Esto equivale al mismo tiempo que un Porsche Carrera GT.</p>
+    </div>
+  </div>
+
+  <div id="wrapper">
+    <div id="container">
+      <h1>Toyota Supra </h1>
+      <p></p>
+      <p class="blanco">El Toyota Supra terminó la producción en 2002 para consternación de muchos fanáticos en todo el mundo, pero el automóvil regresó en el Salón Internacional del Automóvil de Norteamérica de 2019.</p>
+      <p class="blanco">Este modelo insignia de Toyota, que lleva el motor de 6 cilindros en línea y la tracción trasera, está encabezado por el ingeniero jefe Tetsuya Tada, quien también dio vida al Toyota 86. Bajo el lema "Los números son una cosa, el sentimiento es lo que importa", procedió a crear un coche que habla del sentido del conductor. Óptimamente equilibrado con una distribución de peso de 50:50 y un centro de gravedad bajo, proporciona una potente aceleración con un turbo de doble desplazamiento. El manejo rápido habilitado por la carrocería ancha y la distancia entre ejes corta es el resultado de una búsqueda para lograr un automóvil deportivo ideal, y su forma glamorosa y elegante y el sonido del motor de seis cilindros en línea se combinan para darle un aura inigualable por otros.</p>
+      <p class="blanco">El GR Supra RZ se desarrolló no solo para los deportes de motor reales, sino también pensando en la competencia en Gran Turismo Sport. El modelo 2020 aún más refinado también vendrá en nuevos colores de carrocería muy esperados.</p>
+    </div>
+  </div>
+
+  <div id="wrapper">
+    <div id="container">
+      <h1>Ferrari 458 Spider</h1>
+      <p></p>
+      <p class="blanco">El Ferrari 458 Italia es un automóvil superdeportivo de 2 puertas biplaza, con motor central-trasero montado longitudinalmente y tracción trasera, producido por el fabricante italiano Ferrari desde 2010 hasta 2015 como reemplazo del Ferrari F430. A su vez fue reemplazado por el 488, que fue develado en el Salón del Automóvil de Ginebra de 2015.</p>
+      <p class="blanco">Tiene un motor V8 de 4497 cm³ (4,5 litros) naturalmente aspirado, con partes internas muy ligeras y faldones de pistón diminutos, lo que resulta en una baja inercia de rotación y una relación de compresión de 12,5:1, que entrega una potencia máxima de 570 CV (562 HP; 419 kW) a las 9000 rpm, 500 rpm más alto que el F430 y rinde un par motor máximo de 540 Nm a las 6000 rpm, con el 80% del mismo disponible desde las 3250 rpm. </p>
+      <p class="blanco">El motor está acoplado a una caja de cambios de doble embrague Getrag de 7 velocidades tipo F1, similar a la del Ferrari California, que puede funcionar en modo manual o automático, la cual ha sido modificada con diferentes relaciones que permite cambios más rápidos que los 0,06 segundos del 430 Scuderia. La suspensión es de doble brazo en la parte delantera y sistema multilink en la trasera, junto con diferencial electrónico y control de tracción de Fórmula 1, también conocido como F1-Trac,​ que estaban controlados por la propia ECU y diseñado para mejorar el comportamiento en las curvas y la aceleración longitudinal en un 32% en comparación con sus predecesores.El chasis pegado, no soldado, fue diseñado por la fábrica americana "Alcoa", la tercera más grande productora de aluminio en el mundo consiguiendo un peso en seco de 1380 kg (3042 libras), utilizando algunas aleaciones que se emplean en la industria aeroespacial. Además, los ingenieros han conseguido una distribución de peso óptima con el 58% sobre el eje trasero y el resto en el eje delantero. </p>
+    </div>
+  </div>
+
+  <div id="wrapper">
+    <div id="container">
+      <h1>Nissan GTR R34</h1>
+      <p></p>
+      <p class="blanco">El Nissan Skyline es un modelo de automóvil japonés que se ha producido en distintas versiones ininterrumpidamente desde 1957. Sería tras la fusión de los fabricantes Prince y Nissan, cuando comenzó a comercializarse con este nombre. Hasta 1968 se produjeron dos versiones, el Nissan A200GT y el Prince A200GT, que simplemente se diferenciaban por sus nombres.</p>
+      <p class="blanco">El Nissan Skyline fue creado como un automóvil para la familia, ya que era un sedán de cuatro puertas, con una gran capacidad de carga y un equipamiento de seguridad muy completo. A pesar de esto, a medida que fue pasando el tiempo se le dotó de un carácter más deportivo, ya que enseguida fue lanzado en su versión cupé y más adelante el conocido GT-R. Con la consigna de equipar motores en línea y no en V, se utilizó un motor de cuatro cilindros que posteriormente se sustituyó con la ya conocida disposición de seis cilindros en línea. A partir del modelo de 1974 se dispuso de la denominación GT-R, que dominó en las competiciones locales de Japón.</p>
+      <p class="blanco">En mayo de 1998, los modelos HR34, ER34, ENR34 y BNR34 marcaron la introducción del RB25DET NEO que es más eficiente en el consumo de combustible y más respetuoso con el medio ambiente. El motor RB20E se dejó de fabricar para el modelo base del R34 (GT) y el RB20DE, después del último uso en el Skyline R32, se reintrodujo en la versión actualizada de NEO. Nissan presentó dos nuevos modelos para el vehículo base, el 25GT-X y el 25GT-V. El 25GT-X solo estaba disponible como berlina e incluía extras opcionales sobre el 25GT y el 25GT Turbo, como ventanas tintadas traseras y pantalla LCD emergente que reemplazó el triple grupo en los modelos turbo. El 25GT-V era una variación atmosférica que venía de serie con los frenos delanteros Sumitomo de 4 pistones mejorados y las ruedas de 17 " que solo se encuentran en los modelos turbo. En agosto del año 2000, el R34 recibió un lavado de cara que cambió el parachoques delantero a un diseño nuevo y elegante y los faros de xenón eran opcionales en toda la gama. Para el interior, los pedales se cambiaron de goma a aluminio y el volante y el pomo de la palanca de cambios ahora estaban hechos de cuero genuino con diseño en dos tonos, denominado con el anagrama «S» de Skyline en vez del logotipo de Nissan. La consola centra y los detalles ahora eran de un color plateado iridio; anteriormente grises.​</p>
+    </div>
+  </div>
+
+  <!--Contenido -->
+
+  <!--Footer-->
+  <footer class="footer-distributed roboto">
+    <div class="footer-right">
+      <a href="https://www.ufv.es/" target="_blank"><img src="img/logo_ufv.png"</img></a>
+      <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+      <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+      <a href="https://es.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+      <a href="https://github.com/" target="_blank"><i class="fa fa-github"></i></a>
+    </div>
+
+    <div class="footer-left">
+      <p class="footer-links">
+        <a class="link-1" href="index.html">Home</a>
+
+        <a href="galeria.html">Galería</a>
+
+        <a href="timeline.html">Timeline</a>
+
+        <a href="aboutme.html">About Me</a>
+      </p>
+      <p>Pablo Galiñanes Martínez &copy; 2022</p>
+    </div>
+  </footer>
+  <!--Footer-->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
