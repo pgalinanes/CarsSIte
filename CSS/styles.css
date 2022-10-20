@@ -168,7 +168,7 @@ p{
   /*Index*/
   .carousel{
     z-index:2;
-    margin-top: 65px;
+    margin-top: 50px;
     text-align: center !important;
 
   }
@@ -177,6 +177,15 @@ p{
     max-height: 500px;
     width: auto;
     height: auto;
+  }
+
+  @media (min-width: 1300px) {
+    .carousel img{
+      max-height: 500px;
+      width: auto !important;
+      height: auto;
+      display: unset;
+    }
   }
 
 
