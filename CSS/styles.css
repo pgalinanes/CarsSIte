@@ -170,7 +170,6 @@ p{
     z-index:2;
     margin-top: 50px;
     text-align: center !important;
-
   }
 
   .carousel img{
@@ -180,7 +179,9 @@ p{
   }
 
   @media (min-width: 1300px) {
-    
+    .carousel{
+      margin-top: 56px;
+    }
     .carousel img{
       width: auto !important;
       display: unset !important;
