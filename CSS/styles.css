@@ -181,10 +181,8 @@ p{
 
   @media (min-width: 1300px) {
     .carousel img{
-      max-height: 500px;
       width: auto !important;
-      height: auto;
-      display: unset;
+      display: unset !important;
     }
   }
 
