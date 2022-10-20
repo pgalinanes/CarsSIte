@@ -168,14 +168,14 @@ p{
   /*Index*/
   .carousel{
     z-index:2;
-    margin-top: 50px;
+    margin-top: 58px;
     text-align: center !important;
 
   }
 
   .carousel img{
     max-height: 500px;
-    width: auto;
+    width: auto !important;
     height: auto;
   }
 
@@ -305,7 +305,7 @@ p{
     object-fit: cover;
   }
 
-  .galeria a img: hover{
+  .galeria a img:hover{
     transform: scale(1.4);
   }
 
@@ -688,3 +688,4 @@ footer {
   opacity: 0;
 
 /*Titulo timeline*/
+}
