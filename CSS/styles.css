@@ -328,6 +328,13 @@ p{
     transform: scale(1.1);
   }
 
+  @media (min-width: 1300px) {
+    .col {
+      width: 33%;
+  }
+}
+ 
+
   /*Galeria*/
 
   /*About Me*/
