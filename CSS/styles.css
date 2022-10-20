@@ -180,6 +180,7 @@ p{
   }
 
   @media (min-width: 1300px) {
+    
     .carousel img{
       width: auto !important;
       display: unset !important;
