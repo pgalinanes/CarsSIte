@@ -175,7 +175,7 @@ p{
 
   .carousel img{
     max-height: 500px;
-    width: auto !important;
+    width: auto;
     height: auto;
   }
 
