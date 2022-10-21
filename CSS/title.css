@@ -274,3 +274,23 @@
 }
 
 }
+/*Galeria neon*/
+
+
+/*Time-Line*/
+
+@media (min-device-width: 738px){
+  .text-wrapper{
+    font-size: 2em;
+  }
+}
+
+@media (max-device-width: 737px){
+  .text-wrapper{
+    font-size: 0.7em;
+  }
+}
+
+
+
+/*Time-Line*/
