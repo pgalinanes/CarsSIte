@@ -333,7 +333,11 @@ p{
       width: 33%;
   }
 }
-
+@media (max-width: 574px) {
+  .col {
+    padding-right: 100px;
+}
+}
 
 .col{
   margin-bottom: 15px;
