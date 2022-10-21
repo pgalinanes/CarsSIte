@@ -406,8 +406,12 @@ p{
       margin-bottom: 15px;
     }
     .perfil{
-      margin-left: 10px !important;
+      margin-left: 5px !important;
       margin-top: 4em !important;
+    }
+
+    .leftmarginAboutMe{
+      margin-left: 10px;
     }
 
   }
