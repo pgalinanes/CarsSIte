@@ -354,6 +354,10 @@ p{
       margin-top: 10px;
     }
   }
+
+  .adjustPic{
+    height: 100%;
+  }
   
   #contact .well{
     margin-top:30px;
