@@ -234,7 +234,7 @@
   }
 }
 
-@media (max-device-width: 410px){
+@media (min-device-width: 100px) and (max-device-width: 410px){
   .sign {
       position: absolute;
       display: flex;
