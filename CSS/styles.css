@@ -350,8 +350,8 @@ p{
 
   /*About Me*/
   @media (max-device-width: 768px) {
-    .tituloContacto{
-      margin-top: 5px;
+    .aboutMeMargin{
+      margin-top: 10px;
     }
   }
   
@@ -380,7 +380,7 @@ p{
 
   .perfil{
     margin-top: 5em;
-    margin-left: 5em;
+    margin-left: 10px;
     display: flex;
     width: auto;
     height: auto;
